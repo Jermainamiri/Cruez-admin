@@ -1,0 +1,97 @@
+/* html/style.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 550px;
+    max-height: 700px;
+    background: #081120;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header button {
+    background: #1d4ed8;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #10213d;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.player {
+    background: #10213d;
+    margin-bottom: 10px;
+    padding: 14px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.player:hover {
+    background: #1d4ed8;
+}
+
+.player-name {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.reason {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #081120;
+    color: white;
+}
+
+.kick-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.kick-btn:hover {
+    background: #3b82f6;
+}
