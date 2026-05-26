@@ -1,0 +1,28 @@
+<!-- html/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kick Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app" style="display:none;">
+    <div class="menu">
+        <div class="header">
+            <h1>Kick Menu</h1>
+            <button onclick="closeMenu()">X</button>
+        </div>
+
+        <input type="text" id="search" placeholder="Search Player..." onkeyup="searchPlayer()">
+
+        <div id="playerList"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
